@@ -22,7 +22,7 @@ app.post('/add_post', (req, res) => {
       title: title,
       description: description
   }]
-  // sendEmail();
+  sendEmail();
 })
 
 function sendEmail() {
