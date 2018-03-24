@@ -12,7 +12,7 @@ app.use(cors())
 var new_post
 var email
 var text
-
+console.log("The message was sent!");
 app.post('/add_post', (req, res) => {
 	var title = req.body.title;
   var description = req.body.description;
